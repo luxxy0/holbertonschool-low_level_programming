@@ -6,14 +6,17 @@
 
 int main(void)
 {
-	char x;
+	int x = 0, y = 'A';
 
-	for (x = 0; x <= 16; x++)
+	while (x <= 9)
 	{
-		if (x < 10)
-			putchar(x + 0);
-		else
-			putchar(x - 10 + 'a');
+		putchar(x + 48);
+		x++;
+	}
+	while (y <= 'F')
+	{
+		putchar(y + 32);
+		y++;
 	}
 	putchar('\n');
 	return (0);
