@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isolwer - voy a romper la computadora
+ * _islower - voy a romper la computadora
  * @c: letra a comprobar
  * Return: 0
  */
