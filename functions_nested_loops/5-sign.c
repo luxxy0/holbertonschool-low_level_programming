@@ -4,7 +4,7 @@
  * @n: sujeto de preba 2.0
  * Return: 0
  */
-int print_sing(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
