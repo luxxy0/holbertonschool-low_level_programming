@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - NO PUEDE SER QUE SEPA HACER LO QUE ME PIDEN PERO NO SE NI QUE VERGA HAGO AAAAAAAAAAA
+ * print_sign - NO SE NI QUE VERGA HAGO >:v
  * @n: sujeto de preba 2.0
  * Return: 0
  */
