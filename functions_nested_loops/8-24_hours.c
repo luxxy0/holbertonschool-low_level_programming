@@ -17,6 +17,8 @@ int h, m;
 	_putchar(':');
 	_putchar('0' + m / 10);
 	_putchar('0' + m % 10);
+	_putchar('\n');
+
 
 		}
 	}
