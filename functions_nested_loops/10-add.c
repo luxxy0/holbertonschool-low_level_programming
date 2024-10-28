@@ -4,7 +4,7 @@
  * la tabla del 9 me ponen esta boludez xd
  * @a: tu mama
  * @b: tu papa
- * Return 0
+ * Return: La suma de a y b.
  */
 int add(int a, int b)
 {
