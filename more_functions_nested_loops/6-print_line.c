@@ -1,8 +1,22 @@
 #include "main.h"
 /**
- * print_line - dibuja una linea ahr
- *Return: 0
+ * print_line - line
+ * @n: dibuja
+ * Return: 0
  */
+
 void print_line(int n)
 {
+	int line;
 
+	if (n > 0)
+	{
+		for (line = 0; line < n; a++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
+	else
+		_putchar('\n');
+}
