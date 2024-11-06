@@ -2,20 +2,21 @@
 /**
  * print_square - imprime un cuadrado xd
  * @size: var
+ * Return: 0
  */
 void print_square(int size)
 {
-	if (size <= 0)
+	int x, y;
+
+	if (size > 0)
 	{
-		_putchar('\n');
-		return;
-	}
-	for (int i = 0; i < size; i++)
-	{
-		for (int j = 0; j < size; j++)
+		for (x = 1; x <= size; x++)
 		{
-			_putchar('#');
+			for (y = 1; y <= size; y++)
+				_putchar ('#');
+		_putchar ('\n');
 		}
-		_putchar('\n');
 	}
+	else
+		_putchar ('\n');
 }
