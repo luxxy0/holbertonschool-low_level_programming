@@ -1,24 +1,28 @@
 #include "main.h"
 /**
  * print_diagonal - misma monda que el 6
- * @n: dibuja
- * Return: 0
+ * @n: sujeto de prueba
  */
 
 void print_diagonal(int n)
 {
-	int L, D;
+	int l, d;
 
-	if (n > 0)
+	if (n <= 0)
 	{
-		for (L = 0; L < n; L++)
-		{
-			for (D = 0; D < L; D++)
-				_putchar(' ');
-			_putchar('\\');
-			_putchar('\n');
-		}
+		_putchar ('\n');
 	}
 	else
-		_putchar('\n');
+	{
+		for (l = 0; l < n; l++)
+		{
+			for (d = 0; d < l; d++)
+			{
+			_putchar (' ');
+			}
+			_putchar ('\\');
+			_putchar ('\n');
+		}
+	}
+
 }
