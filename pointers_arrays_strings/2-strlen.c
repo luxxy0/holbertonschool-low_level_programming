@@ -1,15 +1,29 @@
 #include "main.h"
 /**
  * _strlen - devuelve longitud de una cadena
- * @s: xd
+ * @dest: final
+ * @src: inicio
+ * @n: bytes
  * Return: 0
  */
-int _strlen(char *s)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int lng = 0;
+	char *x = dest;
 
-	while (s[lng] != '\0')
+	while (*src != '\0' && n > 0)
 	{
-		lng++;
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
 	}
+
+	while (n > 0)
+	{
+		*dest = '\0';
+		dest++;
+		n--;
+	}
+
+	return (x);
 }
