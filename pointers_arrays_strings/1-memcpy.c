@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_memcpy - copia el area de memoria 
+ *_memcpy - copia el area de memoria
  * @src: cadena
  * @dest: byte constante
  * @n: area de memoria
@@ -8,11 +8,12 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	char *p = dest;
+
 	while (n > 0)
 	{
-		*dest++ = *src++;
+		*p++ = *src++;
 		n--;
 	}
-
 	return (dest);
 }
