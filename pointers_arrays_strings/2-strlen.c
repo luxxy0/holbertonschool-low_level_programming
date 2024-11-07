@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen - devuelve longitud de una cadena
+ * _strncpy - devuelve longitud de una cadena
  * @dest: final
  * @src: inicio
  * @n: bytes
