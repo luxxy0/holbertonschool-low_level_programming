@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * _strlen -  devuelve longitud de una cadena
  * @s: var
