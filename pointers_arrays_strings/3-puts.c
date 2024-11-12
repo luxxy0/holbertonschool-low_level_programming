@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * _puts - imprime una cadena
- * @str: var
+ * @str: cadena
  * Return: 0
  */
 void _puts(char *str)
 {
-	while (*str)
-	{
+	while (*str > 0 && *str != '\0')
+
 		_putchar(*str++);
-	}
-	_putchar('\n');
+	_putchar ('\n');
 }
