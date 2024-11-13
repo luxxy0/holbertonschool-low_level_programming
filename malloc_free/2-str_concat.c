@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * str_concat - concatena 2 cadenas
- * @s1: var1
+ * @s1: vvar1
  * @s2: var2
  * Return: 0
  */
