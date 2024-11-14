@@ -30,9 +30,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *p;
 
 	if (s1 != NULL)
-		len_s1 = strlen(s1);
+		len_s1 = str_length(s1);
 	if (s2 != NULL)
-		len_s2 = strlen(s2);
+		len_s2 = str_length(s2);
 
 	if (n >= len_s2)
 		n = len_s2;
