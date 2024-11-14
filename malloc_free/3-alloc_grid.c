@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *
- *
+ * alloc_grid - devuelve un puntero a una array bidimensional de nÃmº entero
+ * @width: array
+ * @height: array
+ * Return: de puntero a una array bidimensional de nÃº entero
  */
 int **alloc_grid(int width, int height)
 {
@@ -26,7 +28,7 @@ int **alloc_grid(int width, int height)
 
 		if (!grid[i])
 		{
-			while (i > 0) 
+			while (i > 0)
 			{
 				free(grid[--i]);
 			}
