@@ -1,25 +1,20 @@
 #include "main.h"
 /**
- * print_diagsums - imprime la suma de las dos diagonales de una array
- * @size: tama√o de la array
- * @a: array
+ * print_array - imprimen n elementos de una array
+ * de num enteros
+ * @a: de puntero a array
+ * @n: imprime los num de elementos de la array
  * Return: 0
  */
-void print_diagsums(int *a, int size)
+void print_array(int *a, int n)
 {
-	int sum1 = 0;
-	int sum2 = 0;
 	int i;
 
-	for (i = 0; i < size * size; i = i + size + 1)
+	for (i = 0; i < n; i++)
 	{
-		sum1 += a[i];
+		printf("%d", a[i]);
+		if (i < n - 1)
+			printf(", ");
 	}
-
-	for (i = size - 1; i < size * size - 1; i = i + size - 1)
-	{
-		sum2 += a[i];
-	}
-
-	printf("%d, %d\n", sum1, sum2);
+	printf("\n");
 }
