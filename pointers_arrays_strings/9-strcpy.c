@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcpy - copia la cadena a la que apunta src 
+ * *_strcpy - copia la cadena a la que apunta src
  * incluido el byte nulo de terminación(\0)
  * en el búfer al que apunta des
  * @dest: destino
